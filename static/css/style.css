@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-image: url('../images/background/bg_defalt.png');
+    background-position: center;
+}
+/* Header - trabalhando com disigner que iram se repetir */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #FFF;
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+
+.logoSite{
+    display: flex;
+    align-items: center;
+}
+
+.logoSite img{
+    width: 234px;
+    margin-left: 20px;
+}
+.menu nav{
+    display: flex;
+    flex-direction: row;
+}
+.menu ul{
+    width: 200px;
+    height: 120px;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #30A7D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+.menu ul a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 2px;
+}
+
+.menu ul img{
+    width: auto;
+    height: 93px;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.annotation{
+    height: auto;
+    margin-top: 30px;
+    background-color:#FFF;
+    border-radius: 20px;
+}
+
+/* Corpo da pagina*/
+
+.external_body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px; 
+    padding-bottom: 90px;
+    justify-content: center;
+}
+
+/*item por item*/
+.item_pokedex{
+    width: 324px;
+    height: 460px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;    
+    border-radius: 20px;
+}
+
+.item_pokedex:hover{
+    border-bottom: 5px solid #fff;
+}
+
+.item_pokedex .photo_pokemon img{
+    background-color: #F2F2F2;
+    width: 320px;
+    border-radius: 20px;
+}
+
+.item_pokedex .item_desc{
+    width: 324px;
+    margin-left: 10px;
+
+}
+
+.item_pokedex .number_pokemon{
+    font-size: 20px;
+    color: #6B6B6B;
+    margin-top: 10px;
+}
+
+.item_pokedex .title_name_pokemon{
+    font-size: 24px;
+    color: #000;
+    margin-top: 12px;
+}
+.item_pokedex .type_pokemon{
+    width: 324px;
+    display: flex;
+    
+}
+
+.type_pokemon .type_color{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+
+}
+
+/*Rodapé*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+    border:#000;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+.block::first-letter{
+    border: 1px solid green;
+}
+.block--footer-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.block--footer-content a{
+    text-decoration: none;
+    color: #6B6B6B;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.bord{
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+}
+.logoFooter img{
+    width: 234px;
+}
+.social-medias{
+    display: flex;
+    justify-content: center;
+}
+.social-medias a{
+    margin: 5px
+}
+
+.about-us{
+    color:#6B6B6B
+}
+
+
+
+/*
+.item_pokedex #type1_superior{
+    width: 120px;
+    height: 15px;
+    background-color: royalblue;
+    border-radius: 10px 10px 0px 0px; 
+}
+.item_pokedex #type1_inferior{
+    width: 120px;
+    height: 15px;
+    background-color: rgb(225, 89, 65);
+    border-radius: 0px 0px 10px 10px; 
+}
+.item_pokedex #type2_superior{
+    width: 120px;
+    height: 15px;
+    background-color: royalblue;
+    border-radius: 10px 10px 0px 0px; 
+}
+.item_pokedex #type2_inferior{
+    width: 120px;
+    height: 15px;
+    background-color: rgb(225, 89, 65);
+    border-radius: 0px 0px 10px 10px; 
+}
+*/
